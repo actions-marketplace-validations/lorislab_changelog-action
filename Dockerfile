@@ -9,6 +9,6 @@ RUN curl https://github.com/lorislab/changelog/releases/download/$VER/changelog_
  
 FROM debian:10.7-slim
 
-COPY --from=builder changelog changelog
+COPY --from=builder changelog /opt/changelog
 
-ENTRYPOINT [/changelog]
+ENTRYPOINT ["/opt/changelog"]

@@ -1,0 +1,9 @@
+name: 'Changelog Generator'
+description: 'Github action that generaters  a changelog und create a release in Github.'
+author: 'andrejpetras'
+branding:
+  icon: edit
+  color: blue
+runs:
+  using: "docker"
+  image: "Dockerfile"

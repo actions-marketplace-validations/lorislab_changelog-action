@@ -1,6 +1,6 @@
 # changelog-action
 
-Changelog github action
+Github action for [changelog](https://github.com/lorislab/changelog).
 
 Show changelog
 ```yaml

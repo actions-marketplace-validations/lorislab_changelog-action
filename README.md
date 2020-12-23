@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: Create release
-        uses: lorislab/changelog-action@v.1.0
+        uses: lorislab/changelog-action@v1
         with:
           args: generate --create-release --close-version --file .github/changelog.yaml
         env:
@@ -42,7 +42,7 @@ Show changelog in the console
 ```yaml
 - name: Show changelog
   id: example
-  uses: lorislab/changelog-action@v0.1.0
+  uses: lorislab/changelog-action@v1
   with:
     args: generate --console -v debug
   env:
@@ -52,7 +52,7 @@ or only create a `Github` release
 ```yaml
 - name: Show changelog
   id: example
-  uses: lorislab/changelog-action@v0.1.0
+  uses: lorislab/changelog-action@v1
   with:
     args: generate --create-release
   env:

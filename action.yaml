@@ -6,4 +6,4 @@ branding:
   color: blue
 runs:
   using: "docker"
-  image: "ghcr.io/lorislab/changelog:1.4.0"
+  image: "docker://ghcr.io/lorislab/changelog:1.4.0"
